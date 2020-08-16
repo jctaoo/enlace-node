@@ -1,7 +1,4 @@
 import * as UUID from "uuid";
-import * as Http from "http";
-
-Http.createServer()
 
 /**
  * Used to mark a unique network request instead of a unique user

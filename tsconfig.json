@@ -4,8 +4,12 @@
     "target": "ES2016",
     "sourceMap": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "outDir": "./dist"
   },
+  "include": [
+    "lib/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]
