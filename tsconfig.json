@@ -5,7 +5,9 @@
     "sourceMap": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "outDir": "./dist"
+    "outDir": "./declare",
+    "declaration": true,
+    "emitDeclarationOnly": true
   },
   "include": [
     "lib/**/*.ts"

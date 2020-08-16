@@ -1,0 +1,11 @@
+import { int } from "./util";
+import { ApplicationConfig, EndpointConfig, MiddlewareConfig, AdaptorConfig } from "./core/";
+export declare const DEFAULT_PORT: int;
+export declare const DEFAULT_HOST: string;
+export declare const LOGO: string;
+export declare const PROJECT_NAME: string;
+export declare const WELCOME_WORDS: string;
+export declare const DEFAULT_APP_CONFIG: ApplicationConfig;
+export declare const DEFAULT_ADAPTOR_CONFIG: AdaptorConfig;
+export declare const DEFAULT_ENDPOINT_CONFIG: EndpointConfig;
+export declare const DEFAULT_MIDDLEWARE_CONFIG: MiddlewareConfig;

@@ -4,6 +4,7 @@
   "author": "jctaoo <jctaoo@outlook.com>",
   "license": "MIT",
   "scripts": {},
+  "types": "./declare/index.d.ts",
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/node": "^14.0.27",
